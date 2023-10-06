@@ -2,5 +2,5 @@
 	path = vim/.vim/pack/tpope/start/vim-sensible
 	url = https://github.com/tpope/vim-sensible
 [submodule "zsh/.antidote"]
-	path = zsh/.antidote
+	path = zsh/.config/zsh/.antidote
 	url = https://github.com/mattmc3/antidote.git
