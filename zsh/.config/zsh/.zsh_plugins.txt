@@ -1,6 +1,13 @@
 rupa/z
-sindresorhus/pure
+#sindresorhus/pure
 
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-autosuggestions
-zsh-users/zsh-history-substrin-search
+zsh-users/zsh-history-substring-search
+zsh-users/zsh-autocomplete
+
+#andreaconti/auto-cd
+
+
+
+romkatv/powerlevel10k
