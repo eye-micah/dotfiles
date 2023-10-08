@@ -31,3 +31,6 @@ zle -N bracketed-paste bracketed-paste-magic
 
 autoload -Uz url-quote-magic
 zle -N self-insert url-quote-magic
+
+WINEFSYNC=1
+WINEESYNC=1
