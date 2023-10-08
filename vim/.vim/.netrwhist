@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
-let g:netrw_dirhist_2='/home/micah/Build/personal/content/blog'
-let g:netrw_dirhist_1='/home/micah/Build/personal/content'
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/micah/git/personal/content'
+let g:netrw_dirhist_4='/home/micah/git/personal/templates'
+let g:netrw_dirhist_3='/home/micah/Documents/Websites/Blog/casual-blog/blog/themes/tabi/content'
+let g:netrw_dirhist_2='/home/micah/.config/rpcs3/config'
+let g:netrw_dirhist_1='/home/micah/Games/Linux/Scripts'
