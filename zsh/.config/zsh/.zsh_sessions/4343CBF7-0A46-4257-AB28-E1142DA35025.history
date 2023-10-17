@@ -1,0 +1,19 @@
+pwd
+git submodule update
+git submodule update --remote
+git submodule update --recursive --init
+zsh
+vim ~/.config/zsh/zsh_plugins
+zsh
+sudo port install zsh iTerm2 stow vim
+sudo port install flameshot
+port search greenshot
+sudo port install flameshot
+sudo port uninstall flameshot
+sudo port uninstall flameshot --follow-dependencies
+sudo port -fp uninstall --follow-dependents installed
+sudo port install zsh iTerm2 stow vim
+zsh
+/bin/zsh
+ls
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;

@@ -1,0 +1,8 @@
+pwd
+git submodule update
+git submodule update --remote
+git submodule update --recursive --init
+zsh
+vim ~/.config/zsh/zsh_plugins
+zsh
+sudo port install zsh iTerm2 stow vim

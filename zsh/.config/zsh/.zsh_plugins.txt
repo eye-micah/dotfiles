@@ -4,7 +4,7 @@ rupa/z
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-history-substring-search
-zsh-users/zsh-autocomplete
+#zsh-users/zsh-autocomplete
 
 #andreaconti/auto-cd
 
