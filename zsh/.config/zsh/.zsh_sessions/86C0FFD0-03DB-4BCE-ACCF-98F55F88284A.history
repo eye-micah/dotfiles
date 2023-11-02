@@ -1,0 +1,283 @@
+pwd
+git submodule update
+git submodule update --remote
+git submodule update --recursive --init
+zsh
+vim ~/.config/zsh/zsh_plugins
+zsh
+sudo port install zsh iTerm2 stow vim
+sudo port install flameshot
+port search greenshot
+sudo port install flameshot
+sudo port uninstall flameshot
+sudo port uninstall flameshot --follow-dependencies
+sudo port -fp uninstall --follow-dependents installed
+sudo port install zsh iTerm2 stow vim
+zsh
+/bin/zsh
+ls
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+whereis port
+sudo port install neofetch
+neofetch
+neofetch
+neofetch
+cd Dev
+git clone https://github.com/corpnewt/MountEFI
+cd MountEFI
+ls
+./MountEFI.command
+./MountEFI.command
+port search propertree
+cd ../
+git clone https://github.com/corpnewt/ProperTree\
+
+cd ProperTree
+ls
+less README.md
+./ProperTree.command
+cd Scripts
+ls
+python
+sudo port install python
+port search python
+port search python3
+port search python311
+port install python311
+sudo port install python311
+sudo port select --set {python,python3} python311
+sudo port select --set python python311
+sudo port select --set python3 python311
+ls
+python -m venv ./venv
+./venv/bin/python __init__.py
+./buildapp-select.command
+cd ../
+ls
+sudo cp ProperTree.app /Applications/
+sudo cp -r ProperTree.app /Applications/
+cd /Applications
+sudo rm -r ProperTree.app/
+cd
+cd ~/Dev/ProperTree
+ls
+open .
+./ProperTree.command
+ls
+cd Scripts
+ls
+ls
+cd ../
+python ProperTree.py
+sudo port install python-tk-311
+sudo port install python-tk311
+sudo port install python-tk
+port search python-tk
+port search python-tkinter
+sudo port install py-tkinter
+ls
+python ./ProperTree.py
+sudo port install py311-tkinter
+python ./ProperTree.py
+sudo port install tk
+python ./ProperTree.py
+sudo port install tk -x11 +quartz\
+\
+
+python ./ProperTree.py
+sudo port install firefox
+port search firefox
+port search bitwarden
+ls
+sudo port install neofetch
+echo $PATH
+whereis port
+vim ~/.config/zsh/zshrc
+zsh
+ls
+cd Dev
+ls
+cd ProperTree
+ls
+./ProperTree.app
+open ./ProperTree.app
+ls
+cd Dev/
+ls
+cd MountEFI
+ls
+./MountEFI.command
+cd Dev/MountEFI
+ls
+./MountEFI.command
+./MountEFI.command
+ls
+cd Dev
+ls
+tree
+bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Mac/main/install.sh) -ceu
+ssh
+ssh-keygen -t ed25519
+defaults write -g com.apple.mouse.scaling -float 5.0
+defaults write -g com.apple.mouse.scaling -float 10.0
+defaults write -g com.apple.mouse.scaling -float 10.0
+defaults write -g com.apple.mouse.scaling -float 15.0
+defaults write -g com.apple.mouse.scaling -float 10.0
+defaults write -g com.apple.mouse.scaling -float 7.0
+defaults write -g com.apple.mouse.scaling -float 12.0
+sudo pkill bluetoothd
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+cd Dev
+ls
+cd dotfiles
+git add .
+git commit -m "Tweaked for Mac."
+git push
+port search github
+port install gh
+sudo port install gh
+gh
+gh auth login
+git push
+cd
+cd Downloads
+open LogiMgr\ Installer\ 10.10.88
+ls | grep -i Logi
+open LogiMgr\ Installer\ 10.10.88.app
+port search mullvad
+cd ~/Dev/
+ls
+cd MountEFI
+ls
+./MountEFI.command
+cd /Volumes/EFI
+ls
+ls -A
+cd EFI
+ls
+/Users/micah/Dev/MountEFI/MountEFI.command ; exit;
+cd ~/Dev
+git clone https://github.com/corpnewt/USBMap
+cd USBMap
+ls
+chmod +x ./USBMap.command
+./USBMap.command
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+cd /Volumes/EFI/EFI/OC/
+ls
+vim Config.plist
+sudo rm -rf /library/preferences/com.apple.bluetooth.plist
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+/Users/micah/Dev/MountEFI/MountEFI.command ; exit;
+cd Dev
+ls
+git clone https://github.com/corpnewt/GenSMBIOS
+cd GenSMBIOS
+ls
+./GenSMBIOS.command
+cd /Volumes/EFI
+ls
+mv EFI EFI.new 
+mv EFI.old EFI
+/Users/micah/Dev/MountEFI/MountEFI.command ; exit;
+/Users/micah/Dev/MountEFI/MountEFI.command ; exit;
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+pushd ~/Dev/personal
+ls
+pushd content
+ls
+pushd blog
+ls
+cp cyberbullying.md w11.md
+vim w11.md
+cd ../
+cd ../
+git pull
+ls
+tmux
+sudo port install tmux
+tmux
+vim content/blog/w11.md
+ls
+ls
+cd content
+ls
+vim _index.md
+ls
+cd Dev
+ls
+cd personal
+ls
+git pull
+ls
+cd static
+ls
+ls -A
+cd ../themes/anemone/static
+ls
+cd css
+ls
+vim style.css
+cd ~/git/personal
+cd ~/Dev/personal
+zola build
+ls
+zola build
+zola serve
+python
+pip3 install --user yt-dlp
+cd Movies
+mkdir -p YT
+cd YT
+yt-dlp https://www.youtube.com/watch\?v\=cUs8FEsDUZ4
+vim ~/.config/zsh/zshrc
+zsh
+whereis yt-dlp
+vim ~/.config/zsh/zshrc
+zsh
+whereis yt-dlp
+yt-dlp https://www.youtube.com/watch\?v\=cUs8FEsDUZ4
+yt-dlp https://www.youtube.com/watch\?v\=xdWXvurWb2U
+port search kdenlive
+sudo port install kdenlive
+ffmpeg
+sudo port install ffmpeg
+whereis ffmpeg
+ls
+ffmpeg -i Emiya\ Original\ Version\ \[cUs8FEsDUZ4\].mp4 emiya.mp3
+cd
+neofetch
+sudo port install neofetch
+neofetch
+cd /tmp
+clear
+vim discord.html
+cd Downloads
+ls | grep -i voltage
+cd voltageshift_1.25
+ls
+./voltageshift mon
+./voltageshift mon
+pkill voltageshift
+ cd
+ls
+cd Movies
+whereis yt-dlp
+yt-dlp https://www.youtube.com/watch\?v\=aJ-qfdrFLMk -f mp4
+cd
+cd ~/Dev/personal
+git pull
+port search qbittorrent
+sudo port install qBitorrent
+sudo port install qBittorrent
+cd ~/Devl
+cd ~/Dev
+ls
+cd GenSMBIOS
+ls
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;

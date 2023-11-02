@@ -31,7 +31,9 @@ antidote load
 
 set -o emacs
 alias rm="rm -i"
-PATH=$HOME/.local/bin:/opt/local/bin:$PATH
+PATH=HOME/.local/bin:/opt/local/bin:/Users/micah/Library/Python/3.9/bin:$PATH
+
+
 
 autoload -Uz bracketed-paste-magic
 zle -N bracketed-paste bracketed-paste-magic
@@ -41,6 +43,8 @@ zle -N self-insert url-quote-magic
 
 WINEFSYNC=1
 WINEESYNC=1
+
+HOMEBREW_NO_ANALYTICS=1
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh

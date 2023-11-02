@@ -120,3 +120,68 @@ tree
 bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Mac/main/install.sh) -ceu
 ssh
 ssh-keygen -t ed25519
+defaults write -g com.apple.mouse.scaling -float 5.0
+defaults write -g com.apple.mouse.scaling -float 10.0
+defaults write -g com.apple.mouse.scaling -float 10.0
+defaults write -g com.apple.mouse.scaling -float 15.0
+defaults write -g com.apple.mouse.scaling -float 10.0
+defaults write -g com.apple.mouse.scaling -float 7.0
+defaults write -g com.apple.mouse.scaling -float 12.0
+sudo pkill bluetoothd
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+cd Dev
+ls
+cd dotfiles
+git add .
+git commit -m "Tweaked for Mac."
+git push
+port search github
+port install gh
+sudo port install gh
+gh
+gh auth login
+git push
+cd
+cd Downloads
+open LogiMgr\ Installer\ 10.10.88
+ls | grep -i Logi
+open LogiMgr\ Installer\ 10.10.88.app
+port search mullvad
+cd ~/Dev/
+ls
+cd MountEFI
+ls
+./MountEFI.command
+cd /Volumes/EFI
+ls
+ls -A
+cd EFI
+ls
+/Users/micah/Dev/MountEFI/MountEFI.command ; exit;
+cd ~/Dev
+git clone https://github.com/corpnewt/USBMap
+cd USBMap
+ls
+chmod +x ./USBMap.command
+./USBMap.command
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+cd /Volumes/EFI/EFI/OC/
+ls
+vim Config.plist
+sudo rm -rf /library/preferences/com.apple.bluetooth.plist
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+/Users/micah/Dev/ProperTree/ProperTree.command ; exit;
+/Users/micah/Dev/MountEFI/MountEFI.command ; exit;
+cd Dev
+ls
+git clone https://github.com/corpnewt/GenSMBIOS
+cd GenSMBIOS
+ls
+./GenSMBIOS.command
+cd /Volumes/EFI
+ls
+mv EFI EFI.new 
+mv EFI.old EFI
+/Users/micah/Dev/MountEFI/MountEFI.command ; exit;
+/Users/micah/Dev/MountEFI/MountEFI.command ; exit;

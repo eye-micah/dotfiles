@@ -496,21 +496,3 @@ python3 ProperTree.py
 brew install python-tk
 vim /Volumes/OPENCORE_TP/EFI/OC/Config.plist 
 csrutil status
-cd Dev
-ls
-cd VoltageShift
-ls
-./voltageshift info
-./voltageshift info
-./voltageshift info
-clear
-./voltageshift info
-./voltageshift offset -100 -100
-./voltageshift info
-cd VoltageShift
-cd Dev/VoltageShift
-ls
-./voltageshift -125 -125
-./voltageshift offset -125 -50
-brew install neofetch
-neofetch 

@@ -1,7 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Volumes/EFI/EFI/OC'
+let g:netrw_dirhist_0='/Volumes/EFI/EFI'
+let g:netrw_dirhist_9='/Volumes/EFI'
+let g:netrw_dirhist_8='/Volumes/EFI/EFI/OC'
+let g:netrw_dirhist_7='/Volumes/EFI/EFI'
+let g:netrw_dirhist_6='/Volumes/EFI'
 let g:netrw_dirhist_5='/home/micah/git/personal/content'
 let g:netrw_dirhist_4='/home/micah/git/personal/templates'
 let g:netrw_dirhist_3='/home/micah/Documents/Websites/Blog/casual-blog/blog/themes/tabi/content'
 let g:netrw_dirhist_2='/home/micah/.config/rpcs3/config'
-let g:netrw_dirhist_1='/home/micah/Games/Linux/Scripts'
