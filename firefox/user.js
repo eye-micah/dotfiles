@@ -17,3 +17,5 @@ user_pref("media.mediasource.enabled", true);
 user_pref("media.mediasource.webm.enabled", true);
 
 user_pref("browser.ctrlTab.previews", true);
+
+user_pref("media.av1.enabled", false);
