@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/micah/Dev/owl/googletest/googletest/src'
+let g:netrw_dirhist_4='/home/micah/Dev/owl/googletest/googletest'
+let g:netrw_dirhist_3='/home/micah/Dev/owl/googletest'
+let g:netrw_dirhist_2='/home/micah/Dev/owl'
 let g:netrw_dirhist_1='/Volumes/EFI/EFI/OC'
 let g:netrw_dirhist_0='/Volumes/EFI/EFI'
 let g:netrw_dirhist_9='/Volumes/EFI'
 let g:netrw_dirhist_8='/Volumes/EFI/EFI/OC'
 let g:netrw_dirhist_7='/Volumes/EFI/EFI'
 let g:netrw_dirhist_6='/Volumes/EFI'
-let g:netrw_dirhist_5='/home/micah/git/personal/content'
-let g:netrw_dirhist_4='/home/micah/git/personal/templates'
-let g:netrw_dirhist_3='/home/micah/Documents/Websites/Blog/casual-blog/blog/themes/tabi/content'
-let g:netrw_dirhist_2='/home/micah/.config/rpcs3/config'
