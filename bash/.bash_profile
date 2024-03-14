@@ -1,8 +1,13 @@
-#
-# ~/.bash_profile
-#
+# .bash_profile
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
 
-export MOZ_ENABLE_WAYLAND=1
-export MOZ_USE_OMTC=1
+# User specific environment and startup programs
+
+if [ -e /var/home/micah/.nix-profile/etc/profile.d/nix.sh ]; then . /var/home/micah/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+# Created by `pipx` on 2024-03-14 19:36:11
+export PATH="$PATH:/var/home/micah/.local/bin"
