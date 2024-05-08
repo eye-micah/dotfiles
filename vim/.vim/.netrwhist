@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/micah/git/personal/content'
 let g:netrw_dirhist_6='/var/home/micah/.bashrc.d'
 let g:netrw_dirhist_5='/home/micah/Dev/owl/googletest/googletest/src'
 let g:netrw_dirhist_4='/home/micah/Dev/owl/googletest/googletest'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_1='/Volumes/EFI/EFI/OC'
 let g:netrw_dirhist_0='/Volumes/EFI/EFI'
 let g:netrw_dirhist_9='/Volumes/EFI'
 let g:netrw_dirhist_8='/Volumes/EFI/EFI/OC'
-let g:netrw_dirhist_7='/Volumes/EFI/EFI'

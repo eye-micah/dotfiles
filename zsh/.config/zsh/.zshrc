@@ -31,7 +31,7 @@ antidote load
 
 set -o emacs
 alias rm="rm -i"
-PATH=HOME/.local/bin:/opt/local/bin:/Users/micah/Library/Python/3.9/bin:/usr/sbin:/sbin:$PATH
+PATH=/opt/homebrew/bin/:HOME/.local/bin:/opt/local/bin:/Users/micah/Library/Python/3.9/bin:/usr/sbin:/sbin:$PATH
 
 
 

@@ -3,6 +3,14 @@ set shiftwidth=2
 set expandtab
 set relativenumber
 
+set autoindent
+
+inoremap {<CR> {<CR>}<Esc>ko
+inoremap [<CR> [<CR>]<Esc>ko
+inoremap (<CR> (<CR>)<Esc>ko
+
+nnoremap O O<Esc>0"_D
+
 syntax enable
 filetype plugin on
 
