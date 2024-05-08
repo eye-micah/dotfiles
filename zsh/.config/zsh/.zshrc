@@ -46,7 +46,7 @@ WINEESYNC=1
 
 HOMEBREW_NO_ANALYTICS=1
 
-
+SOPS_AGE_KEY_FILE=~/.config/sops/age/keys.txt
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
