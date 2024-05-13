@@ -18,7 +18,7 @@ set $term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | wofi --dmenu | xargs swaymsg exec --
+set $menu dmenu_path | wofi --show=drun | xargs swaymsg exec --
 
 ### Output configuration
 #
@@ -82,7 +82,7 @@ set $menu dmenu_path | wofi --dmenu | xargs swaymsg exec --
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit; exec pkill runsv'
 #
 # Moving around:
 #
@@ -214,6 +214,22 @@ bar {
     }
 }
 
+# Screenshot tool
+bindsym Print exec grimshot copy area
+
+bindsym Mod1+l exec swaylock -c 000000
+
+xwayland enable
+
+gaps inner 15
+
+output * background $HOME/Pictures/arc_w2x.png fill
+
+# default_border none
+# default_floating_border none
+# titlebar_padding 1
+# titlebar_border_thickness 0
+
 include /etc/sway/config.d/*
 
 exec runsvdir $HOME/.service/
@@ -222,3 +238,4 @@ exec sv up pipewire_pulse
 exec sv up wireplumber
 exec sv up kanshi
 exec sv up mako
+exec sv up swayidle
